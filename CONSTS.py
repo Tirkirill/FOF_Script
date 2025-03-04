@@ -1,8 +1,11 @@
+RANDOM_WEAPON = "Случайное"
+NO_WEAPON = "Нет"
+
 # 4 - Дают при старте
 # 3 - Синий ящик
 # 2 - Красный ящик
 # 1 - Желтый ящик
-WEAPONS: dict[str:int] = {
+WEAPONS:dict[str:int] = {
     "Нож (4)":                        1,
     "Кольт Нэви (4)":                 2,
     "Hammerless x 1 (4)":             3,
@@ -28,10 +31,10 @@ WEAPONS: dict[str:int] = {
     "Револьвер Реммингтон (4)":       30,
     "Револьвер Уолвилда (2)":         31,
     "Револьвер Уолкера (1)":          32,
-    "Кобылья нога (4)":               33,
+    "Кобылья нога (4)":               33
 }
 
-BOT_NAMES: list[str] = [
+BOT_NAMES:list[str] = [
     "VIP Sex Energy VIP", 
     "HekI/Ita }I{pET kaL", 
     "#~PaP[ER]~Ph[a]Nt0m~#",
@@ -46,3 +49,5 @@ BOT_NAMES: list[str] = [
     "X.A.K.E.R",
     "CCCP/KilleR"
 ]
+
+APP_NAME:str = "Генератор ботов для игры Fistful Of Frags"

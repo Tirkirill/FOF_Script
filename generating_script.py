@@ -64,7 +64,7 @@ def generate_script_file(
     
     WEAPONS_list:list[str] = []
     if weapon1_is_random or weapon2_is_random or weapon3_is_random or weapon4_is_random:
-        WEAPONS_list = list(WEAPONS.keys())
+        WEAPONS_list = list(WEAPONS.values())
 
     for i in range(25):
 
